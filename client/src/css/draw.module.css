@@ -1,0 +1,19 @@
+:root {
+    --size: 30;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #999;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+
+}
+
+.main {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}

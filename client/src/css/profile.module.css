@@ -1,0 +1,18 @@
+.project {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/project.png);
+}
+
+.projectWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
